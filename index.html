@@ -1,20 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Checkout Page Master</title>
 </head>
+
 <body>
-  <header>
 
+  <header class="item header">
+    <h1>Checkout</h1>
   </header>
-  <main>
 
+  <aside class="item aside">
+    <div class="product-set-aside">
+      <div class="photo-product-aside">
+        <img src="./src/photo1.png" alt="">
+      </div>
+      <div class="description-product-aside">
+        <div class="price">
+          <p class="title-description">Vintage Backbag</p>
+          <p class="new-price">$54,99</p>
+          <p class="old-price">$94,99</p>
+        </div>
+        <div class="amount">
+          <span class="material-icons">
+            remove
+          </span>
+          <P>1</P>
+          <span class="material-icons">
+            add
+          </span>
+          <p></p>
+        </div>
+      </div>
+      <div class="information-price-aside">
+        <hr />
+        <div class="information-price">
+          <p>Shipping</p>
+          <p>$19</p>
+        </div>
+        <hr />
+        <div class="information-price">
+          <p>Total</p>
+          <p>$148.98</p>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="item content">
+    <form action="">
+      <h2>Contact information</h2>
+      <label for="email" class="label">Email
+        <input type="email" id="email" placeholder="Enter your email..." requered>
+      </label>
+      <label for="phone" class="label">phone
+        <input type="phone" id="phone" placeholder="Enter your phone..." requered>
+      </label>
+      <h2>Shipping address</h2>
+      <label for="name" class="label">Full name
+        <input type="text" id="name" placeholder="Your name..." requered>
+      </label>
+      <label for="address" class="label">Address
+        <input type="text" id="address" placeholder="Your address..." requered>
+      </label>
+      <label for="city" class="label">City
+        <input type="text" id="city" placeholder="Your city..." requered>
+      </label>
+      <label for="country" class="label">Country
+        ?
+      </label>
+      <label for="email" class="label">Postal code
+        ?
+      </label>
+    </form>
   </main>
+
   <footer>
-    
+    <p class="copyright-create">Criado por <a href="https://github.com/wellingtonhm">Wellington</a> - devChallenges.io
+    </p>
   </footer>
+
 </body>
+
 </html>

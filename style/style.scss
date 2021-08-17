@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    font-size: 16px;
+    margin: 0;
+}
+
+/*** ASIDE ***/
+/* Structure ASIDE*/
+.product-set-aside {
+    display: grid;
+    grid-template-columns: max-content max-content;
+}
+
+.price {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.title-description {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.amount {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.information-price-aside {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    p {
+        display: inline;
+        margin: 0;
+    }
+}
+
+.information-price p:nth-of-type(2) {
+    float: right;
+}
+
+.label {
+    position: relative;
+}
+
+.label:before {
+    content: "";
+    font-family: 'Material Icons';
+    position: absolute;
+}
+
+
+/*** FOOTER ***/
+.copyright-create {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #BDBDBD;
+    text-align: center;
+
+}
+
+
+
+/*** MATERIAL DESIGN GOOGLE ***/
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}

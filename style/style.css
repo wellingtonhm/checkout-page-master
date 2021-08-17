@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+html {
+  font-size: 16px;
+  margin: 0;
+}
+
+/*** ASIDE ***/
+/* Structure ASIDE*/
+.product-set-aside {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: max-content max-content;
+      grid-template-columns: -webkit-max-content -webkit-max-content;
+      grid-template-columns: max-content max-content;
+}
+
+.price {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.title-description {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.amount {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.information-price-aside {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.information-price-aside p {
+  display: inline;
+  margin: 0;
+}
+
+.information-price p:nth-of-type(2) {
+  float: right;
+}
+
+.label {
+  position: relative;
+}
+
+.label:before {
+  content: "";
+  font-family: 'Material Icons';
+  position: absolute;
+}
+
+/*** FOOTER ***/
+.copyright-create {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #BDBDBD;
+  text-align: center;
+}
+
+/*** MATERIAL DESIGN GOOGLE ***/
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  -webkit-font-feature-settings: 'liga';
+          font-feature-settings: 'liga';
+}
+/*# sourceMappingURL=style.css.map */
