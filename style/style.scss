@@ -1,8 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 html {
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    margin: 0;
+    margin: 2rem 1.125rem 1rem 1.125rem;
+}
+
+/* STRUCTURE*/
+
+.structure{
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "aside"
+        "content"
+        "footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.aside {
+    grid-area: aside;
+
+}
+.content {
+    grid-area: content;
+}
+.footer {
+    grid-area: footer;
+}
+
+/*** HEADER ***/
+h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4E5150;
 }
 
 /*** ASIDE ***/
@@ -10,12 +44,24 @@ html {
 .product-set-aside {
     display: grid;
     grid-template-columns: max-content max-content;
+
+    column-gap: 1.125rem;
+    row-gap: 1.75rem;
+    background-color: #F2F2F2;
+    padding: 1.875rem;
+    border-radius: 0.75rem;
 }
 
 .price {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: max-content max-content;
+    row-gap: 1rem;
+    column-gap: 0.8rem;
+    margin-bottom: 1.875rem;
 
+    p{
+        margin: 0;
+    }
 }
 
 .title-description {
@@ -25,7 +71,19 @@ html {
 
 .amount {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: max-content 1fr max-content;
+    justify-items: center;
+    border: 1px solid #828282;
+    border-radius: 0.75rem;
+    padding: 0.75rem;
+    p{
+        padding: 0 1rem;
+        margin: 0;
+    }
+    span{
+        background: #E0E0E0;
+        border-radius: 0.25rem;
+    }
 }
 
 .information-price-aside {
@@ -33,16 +91,50 @@ html {
     grid-column-end: 3;
 
     p {
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: #333333;
         display: inline;
         margin: 0;
     }
+}
+
+/* Template ASIDE*/
+.photo-product-aside img{
+    max-width: 8.5rem;
+    max-height: 8.5rem;
+    border-radius: 0.75rem;
+}
+
+.title-description{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #4E5150;
+}
+
+.new-price{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #F2994A;
+}
+
+.old-price{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #4E5150;
 }
 
 .information-price p:nth-of-type(2) {
     float: right;
 }
 
+
+
+/*** CONTENT ***/
+/* Simbolos input CONTENT*/
+
 .label {
+    display: block;
     position: relative;
 }
 
@@ -50,6 +142,10 @@ html {
     content: "";
     font-family: 'Material Icons';
     position: absolute;
+}
+
+.btn-continue{
+    display: block;
 }
 
 
