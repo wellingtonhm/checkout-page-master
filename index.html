@@ -27,16 +27,19 @@
             <p class="new-price">$54,99</p>
             <p class="old-price">$94,99</p>
           </div>
-          <div class="amount">
-            <span class="material-icons">
-              remove
-            </span>
-            <P>1</P>
-            <span class="material-icons">
-              add
-            </span>
-            <p></p>
+          <div class="border-amount">
+            <div class="amount">
+              <span class="material-icons">
+                remove
+              </span>
+              <P>1</P>
+              <span class="material-icons">
+                add
+              </span>
+              <p></p>
+            </div>
           </div>
+
         </div>
         <div class="photo-product-aside">
           <img src="./src/photo1.png" alt="">
@@ -47,15 +50,17 @@
             <p class="new-price">$54,99</p>
             <p class="old-price">$94,99</p>
           </div>
-          <div class="amount">
-            <span class="material-icons">
-              remove
-            </span>
-            <P>1</P>
-            <span class="material-icons">
-              add
-            </span>
-            <p></p>
+          <div class="border-amount">
+            <div class="amount">
+              <span class="material-icons">
+                remove
+              </span>
+              <P>1</P>
+              <span class="material-icons">
+                add
+              </span>
+              <p></p>
+            </div>
           </div>
         </div>
         <div class="information-price-aside">
@@ -71,7 +76,7 @@
           </div>
         </div>
       </div>
-      
+
 
     </aside>
 
@@ -79,27 +84,35 @@
       <form action="">
         <h2>Contact information</h2>
         <label for="email" class="label">Email </label>
-        <input type="email" id="email" placeholder="Enter your email..." required>
+        <input type="email" id="email" class="input" placeholder="Enter your email..." required>
         <label for="phone" class="label">Phone </label>
-        <input type="phone" id="phone" placeholder="Enter your phone..." required>
+        <input type="phone" id="phone" class="input" placeholder="Enter your phone..." required>
         <h2>Shipping address</h2>
         <label for="name" class="label">Full name </label>
-        <input type="text" id="name" placeholder="Your name..." required>
+        <input type="text" id="name" class="input" placeholder="Your name..." required>
         <label for="address" class="label">Address </label>
-        <input type="text" id="address" placeholder="Your address..." required>
+        <input type="text" id="address" class="input" placeholder="Your address..." required>
         <label for="city" class="label">City </label>
-        <input type="text" id="city" placeholder="Your city..." required>
-        <label for="country" class="label">Country </label>
-        <select name="country" id="country">
-          <option value="Brasil">Brasil</option>
-          <option value="Estados Unidos">Estados Unidos</option>
-          <option value="Canadá">Canadá</option>
-        </select>
-        <label for="postal-code" class="label">Postal code </label>
-        <input type="numbem" id="postal-code" placeholder="Your postal code..." required><br/>
-        <input type="checkbox" id="save-information" required>
-        <label for="save-information">Save this information for next time
-        </label>
+        <input type="text" id="city" class="input" placeholder="Your city..." required>
+        <div class="country-code-postal">
+          <div>
+            <label for="country" class="label">Country </label>
+            <select name="country" id="country" class="input input-select">
+              <option value="Brasil">Brasil</option>
+              <option value="Estados Unidos">Estados Unidos</option>
+              <option value="Canadá">Canadá</option>
+            </select>
+          </div>
+          <div>
+            <label for="postal-code" class="label">Postal code</label>
+            <input type="numbem" id="postal-code" class="input" placeholder="Your postal code..." required><br />
+          </div>
+        </div>
+        <div class="save-information-label">
+          <input type="checkbox" id="save-information" required>
+          <label for="save-information">Save this information for next time
+          </label>
+        </div>
         <button type="submit" class="btn-continue">Continue</button>
       </form>
     </main>
