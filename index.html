@@ -24,16 +24,16 @@
         <div class="description-product-aside">
           <div class="price">
             <p class="title-description">Vintage Backbag</p>
-            <p class="new-price">$54,99</p>
-            <p class="old-price">$94,99</p>
+            <p class="new-price">$ <span id="price-1">54.90</span></p>
+            <p class="old-price">$ <s>94.99</s></p>
           </div>
           <div class="border-amount">
             <div class="amount">
-              <span class="material-icons">
+              <span class="material-icons" onclick="removeCart()">
                 remove
               </span>
-              <P>1</P>
-              <span class="material-icons">
+              <P id="item1-cart">0</P>
+              <span class="material-icons" onclick="addCart()">
                 add
               </span>
               <p></p>
@@ -42,21 +42,21 @@
 
         </div>
         <div class="photo-product-aside">
-          <img src="./src/photo1.png" alt="">
+          <img src="./src/photo2.png" alt="">
         </div>
         <div class="description-product-aside">
           <div class="price">
-            <p class="title-description">Vintage Backbag</p>
-            <p class="new-price">$54,99</p>
-            <p class="old-price">$94,99</p>
+            <p class="title-description">Levi Shoes</p>
+            <p class="new-price">$<span id="price-2">74.99</span></p>
+            <p class="old-price">$ <s>124.99</s></p>
           </div>
           <div class="border-amount">
             <div class="amount">
-              <span class="material-icons">
+              <span class="material-icons" onclick="removeCarttwo()">
                 remove
               </span>
-              <P>1</P>
-              <span class="material-icons">
+              <P id="item2-cart">0</P>
+              <span class="material-icons" onclick="addCarttwo()">
                 add
               </span>
               <p></p>
@@ -67,12 +67,12 @@
           <hr />
           <div class="information-price">
             <p>Shipping</p>
-            <p>$19</p>
+            <p>$ <span>0</span></p>
           </div>
           <hr />
           <div class="information-price">
             <p>Total</p>
-            <p>$148.98</p>
+            <p>$ <span id="information-price-total">0</span></p>
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@
           <label for="save-information">Save this information for next time
           </label>
         </div>
-        <button type="submit" class="btn-continue">Continue</button>
+        <button type="submit" class="btn-continue" conclick="resetCart()">Continue</button>
       </form>
     </main>
 
@@ -133,5 +133,5 @@
   </div>
 
 </body>
-
+<script type="text/javascript" src="./js/main.js"></script>
 </html>

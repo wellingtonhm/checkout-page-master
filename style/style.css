@@ -91,9 +91,9 @@ h1 {
 .amount {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: max-content auto max-content;
-      grid-template-columns: -webkit-max-content auto -webkit-max-content;
-      grid-template-columns: max-content auto max-content;
+  -ms-grid-columns: max-content 4rem max-content;
+      grid-template-columns: -webkit-max-content 4rem -webkit-max-content;
+      grid-template-columns: max-content 4rem max-content;
   justify-items: center;
 }
 
@@ -256,6 +256,10 @@ input[type="checkbox"] {
   font-weight: 600;
   color: #FFFFFF;
   float: right;
+}
+
+.btn-continue:hover {
+  background: #333333;
 }
 
 /*** FOOTER ***/

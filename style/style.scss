@@ -80,7 +80,7 @@ h1 {
 
 .amount {
     display: grid;
-    grid-template-columns: max-content auto max-content;
+    grid-template-columns: max-content 4rem max-content;
     justify-items: center;
 
     p {
@@ -248,7 +248,10 @@ input[type="checkbox"] {
     font-weight: 600;
     color: #FFFFFF;
     float: right;
+}
 
+.btn-continue:hover{
+    background: #333333;
 }
 
 
