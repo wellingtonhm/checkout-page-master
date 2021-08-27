@@ -1,4 +1,4 @@
-<h1 align="center">Edie Homepage Master</h1>
+<h1 align="center">Checkout page master</h1>
 
 <div align="center">
    Solução para um desafio de  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
