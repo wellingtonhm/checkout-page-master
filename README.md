@@ -1,90 +1,60 @@
-<!-- Please update value in the {}  -->
-
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Edie Homepage Master</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+   Solução para um desafio de  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://wellingtonhm.github.io/checkout-page-master/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
+    <a href="https://github.com/wellingtonhm/checkout-page-master">
+      Solução
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">
-      Challenge
+      Desafio
     </a>
   </h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
 
-## Table of Contents
+![screenshot](https://raw.githubusercontent.com/wellingtonhm/checkout-page-master/main/src/checkout-page-master.png)
 
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+## Indice
 
-<!-- OVERVIEW -->
+- [Visão Geral](#visão-geral)
+- [Tecnologia](#tecnologia)
+- [Contato](#contato)
 
-## Overview
+## Visão Geral
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+Este site foi criado como resultado a um desafio [DevChallenges](https://devchallenges.io/challenges).
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+**Desafio:** Crie uma página de checkout seguindo o design. Você não precisa usar JS neste desafio, mas usar tipos de entrada e validação corretos. Preencher requisitos abaixo:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
-
-### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
-
-## Features
-
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the given user stories.
+- Ver uma página seguindo o design fornecido
+- Posso inserir e-mail, telefone, nome completo, endereço, cidade, país e código postal
+- Posso inserir o número de itens
+- Posso selecionar pelo menos 3 países na lista suspensa
+- Quando clico no botão enviar ou pressiono Enter, posso ver um aviso se a validação falhar
+- Quando clico no botão enviar ou pressiono enter, posso ver um alerta bem-sucedido se a validação for bem-sucedida
 
 
-## How To Use
+Utilizar [Material Design Icons](https://google.github.io/material-design-icons/) 
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+Seguir este design: Link [Figma](https://www.figma.com/file/4B0x88GhiZvgVlcQPSQ73D) 
 
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+## Tecnologia
 
-# Install dependencies
-$ npm install
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-# Run the app
-$ npm start
-```
+## Contato
 
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-
-## Contact
-
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [Honorios](https://honorios.com.br)
+- GitHub [@wellingtonhm](https://github.com/wellingtonhm)
